@@ -18,7 +18,13 @@ const decoder =
 
 
 /* ==================================
-   Start Stage 1 Immediately
+   Mission-Success.exe
+
+   Birthday card project inspired by
+   a hacker terminal interface.
+
+   Stage 1:
+   Binary generation and decoding
 ================================== */
 generateBinary();
 
