@@ -1,20 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
     <title>Mission Success</title>
 
-    <link rel="stylesheet" href="style.css">
+    <link
+        rel="stylesheet"
+        href="style.css"
+    >
+
 </head>
+
 <body>
 
+    <!-- ==================================
+         Terminal
+    =================================== -->
+
     <div id="terminal">
-        <div id="binary"></div>
-        <div id="decoder"></div>
+
+        <div id="screen">
+
+            <div id="topPanel">
+
+                <div id="binary"></div>
+
+                <div id="systemPanel"></div>
+
+            </div>
+
+            <div id="decoder"></div>
+
+            <input
+                type="text"
+                id="usernameInput"
+                placeholder="Type username..."
+                autocomplete="off"
+            >
+
+            <!-- ==================================
+                 Reboot Progress
+            =================================== -->
+
+            <div id="progressContainer">
+
+                <div id="progressFill"></div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- ==================================
+         Birthday Screen
+    =================================== -->
+
+    <div id="birthdayScreen">
+
+        <div id="birthdayCard">
+
+            <h1 id="birthdayTitle">
+
+                🎉 HAPPY BIRTHDAY 🎉
+
+            </h1>
+
+            <h2 id="birthdayName"></h2>
+
+            <p id="birthdayWish"></p>
+
+        </div>
+
+    </div>
+
+    <!-- ==================================
+         Floating System Message
+    =================================== -->
+
+    <div id="systemMessage">
+
+        <div class="systemHeader">
+
+            > SYSTEM MESSAGE
+
+        </div>
+
+        <div id="systemContent"></div>
+
     </div>
 
     <script src="script.js"></script>
 
 </body>
+
 </html>
